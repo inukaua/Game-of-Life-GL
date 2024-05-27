@@ -14,7 +14,7 @@ Shader::Shader(const char* vertPath, const char* fragPath)
 : ID(0)
 {   
     std::string c_path = std::filesystem::current_path().string();
-    std::string root = c_path.substr(0,c_path.rfind("GOL/") + 4 );
+    std::string root = c_path.substr(0,c_path.rfind("/build") + 1);
 
     // vsc = vertex source
     std::ifstream vsc(root + std::string(vertPath), std::ifstream::in);
