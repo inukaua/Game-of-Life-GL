@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/home/kommy/projects/artificial_life/GOL",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Iinclude", "-o", "build/.objs/GOL/linux/x86_64/release/src/inputs.cpp.o", "src/inputs.cpp"],
+  "file": "src/inputs.cpp"
+},
+{
+  "directory": "/home/kommy/projects/artificial_life/GOL",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Iinclude", "-o", "build/.objs/GOL/linux/x86_64/release/src/main.cpp.o", "src/main.cpp"],
+  "file": "src/main.cpp"
+},
+{
+  "directory": "/home/kommy/projects/artificial_life/GOL",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Iinclude", "-o", "build/.objs/GOL/linux/x86_64/release/src/shader.cpp.o", "src/shader.cpp"],
+  "file": "src/shader.cpp"
+},
+{
+  "directory": "/home/kommy/projects/artificial_life/GOL",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Iinclude", "-o", "build/.objs/GOL/linux/x86_64/release/src/glad.cpp.o", "src/glad.cpp"],
+  "file": "src/glad.cpp"
+},
+{
+  "directory": "/home/kommy/projects/artificial_life/GOL",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-Iinclude", "-o", "build/.objs/GOL/linux/x86_64/release/src/callbacks.cpp.o", "src/callbacks.cpp"],
+  "file": "src/callbacks.cpp"
+}]
