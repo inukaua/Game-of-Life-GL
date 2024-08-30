@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cstring>
 
-#include "image.h"
+#include "image.hpp"
 
 unsigned int Image::getPixelIndex(int x, int y)
 {

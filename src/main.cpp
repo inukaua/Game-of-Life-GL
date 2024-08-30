@@ -10,10 +10,10 @@
 #include <cmath>
 #include <vector>
 
-#include "callbacks.h"
-#include "inputs.h"
-#include "shader.h"
-#include "image.h"
+#include "callbacks.hpp"
+#include "inputs.hpp"
+#include "shader.hpp"
+#include "image.hpp"
 
 #define WIDTH 600
 #define HEIGHT 600

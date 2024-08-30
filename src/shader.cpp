@@ -8,7 +8,7 @@
 #include <filesystem> // TODO: Remove redundant dependency.
 #include <sstream>
 
-#include "shader.h"
+#include "shader.hpp"
 
 Shader::Shader(const char* vertPath, const char* fragPath)
 : ID(0)
