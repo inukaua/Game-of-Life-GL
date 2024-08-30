@@ -4,6 +4,9 @@ project(game_of_life)
 
 include_directories( SYSTEM "include/" )
 
+# For windows users:
+# add_subdirectory(path/to/glfw)
+
 file(GLOB sources src/*.cpp)
 add_executable(gol ${sources})
 
